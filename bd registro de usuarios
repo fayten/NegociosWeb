@@ -1,0 +1,17 @@
+CREATE TABLE `aqui ponen el nombre de la bd que ustedes tienen`.`usuarios` (
+
+`usuario_id` bigint(10) NOT NULL AUTO_INCREMENT,
+`nombre` varchar(35) not null,
+  
+`apellido` varchar(40) not null,
+  
+`usuario_nombre` varchar(128) NOT NULL,
+  
+`email_address` varchar(128) NOT NULL,
+
+`usuario_pswd` varchar(128) NOT NULL,
+   
+PRIMARY KEY (`usuario_id`),
+  UNIQUE KEY `usuario_name_UNIQUE` (`usuario_email`)
+)
+ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
